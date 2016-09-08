@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+@interface ViewController : UIViewController <UITableViewDataSource ,UITableViewDelegate>
 
-@interface ViewController : UIViewController
-
+@property (weak,nonatomic)NSString *address;
+@property (weak,nonatomic)NSString *city;
+@property (weak,nonatomic)NSString *state;
+@property (weak,nonatomic)NSString *zip;
 
 @end
 

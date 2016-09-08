@@ -15,6 +15,7 @@
 		92655E951D1F1E7900E22F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92655E931D1F1E7900E22F2E /* LaunchScreen.storyboard */; };
 		92655EA01D1F1E7900E22F2E /* WebDemoJsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92655E9F1D1F1E7900E22F2E /* WebDemoJsonTests.m */; };
 		92655EAB1D1F1E7A00E22F2E /* WebDemoJsonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92655EAA1D1F1E7A00E22F2E /* WebDemoJsonUITests.m */; };
+		92655EBA1D1F214800E22F2E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92655EB91D1F214800E22F2E /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		92655EA61D1F1E7A00E22F2E /* WebDemoJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebDemoJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92655EAA1D1F1E7A00E22F2E /* WebDemoJsonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebDemoJsonUITests.m; sourceTree = "<group>"; };
 		92655EAC1D1F1E7A00E22F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92655EB81D1F214800E22F2E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		92655EB91D1F214800E22F2E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				92655E931D1F1E7900E22F2E /* LaunchScreen.storyboard */,
 				92655E961D1F1E7900E22F2E /* Info.plist */,
 				92655E851D1F1E7900E22F2E /* Supporting Files */,
+				92655EB81D1F214800E22F2E /* DetailViewController.h */,
+				92655EB91D1F214800E22F2E /* DetailViewController.m */,
 			);
 			path = WebDemoJson;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				92655E8D1D1F1E7900E22F2E /* ViewController.m in Sources */,
 				92655E8A1D1F1E7900E22F2E /* AppDelegate.m in Sources */,
 				92655E871D1F1E7900E22F2E /* main.m in Sources */,
+				92655EBA1D1F214800E22F2E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
